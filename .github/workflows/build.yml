@@ -1,0 +1,8 @@
+name : CI_CD_ESLINT
+on : push
+jobs :
+      first-job :
+          runs-on : ubuntu-latest
+          steps :
+                - run : node --version
+                - run : npm --version
